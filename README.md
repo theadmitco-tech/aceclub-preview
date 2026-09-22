@@ -1,4 +1,4 @@
-# ACE renderer — Phase 1
+# aceclub-preview — ACE renderer Phase 1
 
 Fixture-backed implementation of the shared ACE lesson shell. It provides H2-based navigation, deterministic section IDs, normalized-block rendering, placeholder preservation, explicit unsupported-block diagnostics, responsive layout, keyboard focus, and reduced-motion support.
 
