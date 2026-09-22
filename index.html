@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ACE lesson preview</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/interaction.css" />
+  <link rel="stylesheet" href="/interaction-overrides.css?v=20260912-3" />
+  <link rel="stylesheet" href="/drag-return.css" />
+  <link rel="stylesheet" href="/interaction-state.css" />
+</head>
+<body>
+  <div id="app" class="app" data-state="loading">
+    <header class="topbar"><a class="brand" href="./">ACE <span>by Math Simplified</span></a><div class="student-tools"><a href="./index.html?demo=1">Interaction demo</a><span class="avatar" aria-hidden="true">TG</span><span>Preview</span></div></header>
+    <div class="loading-state" role="status">Loading lesson…</div>
+    <main class="shell" hidden>
+      <aside class="sidebar" aria-label="Lesson navigation"><button class="sidebar-toggle" type="button" aria-expanded="true" aria-controls="sidebar-content">Lesson sections <span aria-hidden="true">⌄</span></button><div id="sidebar-content"><p class="eyebrow">LESSON JOURNEY</p><nav id="section-nav"></nav><div class="progress-card"><span>Lesson progress</span><strong id="progress-label">0 of 0 completed</strong><div class="progress-track"><i id="progress-bar"></i></div></div></div></aside>
+      <section class="lesson" aria-live="polite"><div id="lesson-content"></div><div class="lesson-footer"><button id="previous" class="button secondary" type="button">← Previous</button><span id="next-hint" class="muted"></span><button id="next" class="button primary" type="button">Next →</button></div></section>
+    </main>
+    <div id="error-state" class="message" hidden></div>
+  </div>
+  <script src="/app.js?v=20260912-6" type="module"></script>
+<script src="/template-interactions.js?v=20260912-6"></script>
+  <script src="/drag-interaction.js"></script>
+  <script src="/interaction-semantics.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/preview/:pageId", "destination": "/index.html" }
+  ]
+}

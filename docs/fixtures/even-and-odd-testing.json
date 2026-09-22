@@ -1,0 +1,57 @@
+{
+  "id": "even-and-odd-testing",
+  "title": "Even and Odd- testing",
+  "source": {
+    "type": "fixture",
+    "ref": "phase-0-reference"
+  },
+  "blocks": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Even and odd numbers are two complementary types of integers."
+    },
+    {
+      "id": "definitions",
+      "type": "heading-2",
+      "text": "Even and odd numbers"
+    },
+    {
+      "id": "definitions-body",
+      "type": "paragraph",
+      "text": "An even integer is divisible by 2. An odd integer is not divisible by 2."
+    },
+    {
+      "id": "representations",
+      "type": "heading-2",
+      "text": "Representing even and odd integers"
+    },
+    {
+      "id": "representations-body",
+      "type": "equation",
+      "text": "x = 2a and y = 2b + 1, where a,b ∈ ℤ"
+    },
+    {
+      "id": "try-it-yourself",
+      "type": "heading-2",
+      "text": "Try it yourself"
+    },
+    {
+      "id": "try-it-yourself-placeholder",
+      "type": "paragraph",
+      "text": "[Placeholder: authored activity content will be added in Notion.]",
+      "metadata": { "placeholder": true }
+    },
+    {
+      "id": "practise",
+      "type": "heading-2",
+      "text": "Practise"
+    },
+    {
+      "id": "practise-placeholder",
+      "type": "paragraph",
+      "text": "[Placeholder: authored practice content will be added in Notion.]",
+      "metadata": { "placeholder": true }
+    }
+  ]
+}
